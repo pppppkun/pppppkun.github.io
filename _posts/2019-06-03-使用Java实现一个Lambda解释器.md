@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      使用Java实现一个lambda解释器
-subtitle:   Lambda解释器
+subtitle:   Lambda演算
 date:       2019-06-03
 author:     Pkun
 header-img: 
