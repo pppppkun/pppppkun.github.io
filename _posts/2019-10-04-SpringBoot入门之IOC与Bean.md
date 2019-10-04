@@ -4,7 +4,7 @@ title:      Spring Boot入门之IOC与Bean
 subtitle:   Spring Boot学习之旅
 date:       2019-10-04
 author:     Pkun
-header-img: img/post-bg-rwd.jpg
+header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
     - Java
