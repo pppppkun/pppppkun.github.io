@@ -28,11 +28,11 @@ so！我们只要在resources设置一个`banner.txt`就可以了！
 
 ## 如何定制`banner`
 
-　　[](http://patorjk.com/software/taag)http://patorjk.com/software/taag
+http://patorjk.com/software/taag
 
-　　[](http://www.network-science.de/ascii/)
+http://www.network-science.de/ascii/
 
-　　[](http://www.degraeve.com/img2txt.php)
+http://www.degraeve.com/img2txt.php
 
  ## `banner`中的配置
 
