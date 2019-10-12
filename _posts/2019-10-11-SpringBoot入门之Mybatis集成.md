@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      SpringBoot入门之Mybatis集成
-subtitle:   矩阵
+title:      Spring Boot入门之Mybatis集成
+subtitle:   Spring Boot学习之旅
 date:       2019-10-11
 author:     Pkun
 header-img: img/SpringBootITR.jpg
