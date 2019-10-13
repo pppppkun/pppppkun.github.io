@@ -29,7 +29,7 @@ iBATIS一词来源于“internet”和“abatis”的组合，是一个基于Jav
 
 本文中database的名字是springboot
 
-```
+```SQL
 
 create database springboot
 
@@ -74,7 +74,7 @@ CREATE TABLE `user` (
 我用的是`application.yaml`，因为他提供了缩进，看起来舒服一点，但是如果你有`.properties`文件的话，它会覆盖`.yaml`文件，这点需要注意。
 
 在设置的时候，我们首先配置`JDBC`
-```
+```xml
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/<database_name>?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
@@ -85,7 +85,7 @@ spring:
 `spring`下还有一些别的配置，比如`max-file-size`等，可以自己去了解
 
 然后我们配置mybatis的环境
-```
+```xml
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: ns.mental.advi.entity
@@ -97,7 +97,7 @@ mybatis:
 我们在`resources`下建立一个文件夹`mapper`，然后在里面新建一个`UserEntityMapper.xml`文件
 
 内容大概这样
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="ns.mental.advi.dao.UserMapper">
@@ -146,7 +146,7 @@ namespace是指将查询语句映射到哪个类中，这个类中要有和sql�
 ## 写码！
 
 `UserMapper`
-```
+```java
 package ns.mental.advi.dao;
 
 import ns.mental.advi.entity.UserEntity;
@@ -164,7 +164,7 @@ public interface UserMapper {
 
 `UserService.class`
 
-```
+```java
 package ns.mental.advi.service;
 
 import ns.mental.advi.entity.UserEntity;
@@ -178,7 +178,7 @@ public interface UserService {
 
 `UserServiceImpl.class`
 
-```
+```java
 package ns.mental.advi.service.impl;
 
 import ns.mental.advi.dao.UserMapper;
@@ -201,7 +201,7 @@ public class UserServiceImpl implements UserService {
 ```
 
 `UserEntity`
-```
+```java
 package ns.mental.advi.entity;
 
 import lombok.Data;
@@ -231,7 +231,7 @@ public class UserEntity {
 
 `UserController`
 
-```
+```java
 package ns.mental.advi.controller;
 
 
