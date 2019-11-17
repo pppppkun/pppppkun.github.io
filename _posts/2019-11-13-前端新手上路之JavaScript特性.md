@@ -2,9 +2,9 @@
 layout:     post
 title:      JavaScript-函数
 subtitle:   前端新手上路-JavaScript
-date:       2019-11-12
+date:       2019-11-13
 author:     Pkun
-header-img: img/matrix-head.jpg
+header-img: img/JS.jpg
 catalog: true
 tags:
     - 前端
