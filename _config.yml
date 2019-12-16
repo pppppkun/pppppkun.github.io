@@ -2,7 +2,9 @@
 title: Engineer P
 SEOTitle: pkun's Blog | BY Blog
 header-img: img/post-bg-desk.jpg
-email: 936637810@qq.com
+email:
+  936637810@qq.com
+  181250068@smail.nju.edu.cn
 description: "每当无知的人们又想劝着你放弃，我就不自觉的产生反击他的抵抗力"
 keyword: 
 url: "http://pppppkun.github.io"          # your host, for absolute URL
