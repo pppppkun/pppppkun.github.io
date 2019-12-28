@@ -9,7 +9,6 @@ catalog: true
 tags:
     - 前端
     - JavaScript
-    - 脚本语言
 ---
 
 ## 对象的基本操作

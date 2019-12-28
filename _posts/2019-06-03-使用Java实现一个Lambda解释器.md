@@ -8,7 +8,6 @@ header-img: img/lambda.jpg
 catalog: true
 tags:
     - Lambda演算
-    - 函数式编程
     - Java
 ---
 

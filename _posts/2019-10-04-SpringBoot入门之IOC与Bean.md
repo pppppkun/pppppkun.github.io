@@ -10,7 +10,6 @@ tags:
     - Java
     - Spring Boot
     - IOC
-    - Bean
 ---
 
 # Spring Boot 之 IOC 与 Bean
