@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Java .class文件结构与常量池
+title:      Java .class文件访问标志、索引、字段表、方法表
 subtitle:   深入理解Java虚拟机
-date:       2020-03-26
+date:       2020-03-28
 author:     Pkun
 header-img: 
 catalog: true
